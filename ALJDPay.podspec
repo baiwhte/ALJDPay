@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ALJDPay"
-  s.version          = "2.4"
+  s.version          = "2.4.1"
   s.summary          = "京东支付SDK"
   s.description      = <<-DESC
                        添加京东支付SDK支持cocoapods.
@@ -23,7 +23,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.public_header_files = '{JDPAuthSDK, JDPAuthObject}.h'
   s.source_files = '*.{h,m}'
   s.vendored_libraries = 'libJDPAuthSDK.a'
   s.resource = '*.bundle'
